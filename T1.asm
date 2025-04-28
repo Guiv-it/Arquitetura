@@ -23,7 +23,7 @@ loopr:
     brzr r3, r2 ; pula fimloopr
     st r0, r1
     addi 1
-    sub r3, r0 ; cont-1 
+    sub r3, r0 ; cont-1   
     add r1, r0 ; i+1
     xor r0, r0
     ji loopr ; Volta para 
@@ -35,7 +35,7 @@ fimloopr:
     add r1, r0 ; r1 =&A[9]
     addi 6
     add r2, r0 ; r2 = &43
-   addi 4 
+    addi 4 
     addi 1 ;; r0 = 20
 loopA:
     brzr r0, r2
@@ -63,8 +63,6 @@ fimloopB:
     xor r2, r2
     addi 6 ; 4 bits mais sig do fimsoma
     add r2, r0
-    addi 4
-    add r1, r0
     xor r0, r0
     addi 4
     slr r2, r0 ; shift de 4

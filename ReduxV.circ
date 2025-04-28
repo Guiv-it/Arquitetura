@@ -281,6 +281,7 @@
     <comp loc="(1510,540)" name="Controle"/>
     <comp loc="(1660,300)" name="ULA"/>
     <comp loc="(2020,240)" name="Dual_port_RAM"/>
+    <comp loc="(590,990)" name="Dual_port_RAM"/>
     <wire from="(1000,220)" to="(1010,220)"/>
     <wire from="(1000,240)" to="(1040,240)"/>
     <wire from="(1000,260)" to="(1130,260)"/>
