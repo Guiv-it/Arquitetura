@@ -53,36 +53,32 @@
     add r2, r0 ;; r2 = 99 (DISTANCIA DO PULO fimsoma)
         brzr r0, r2
         ld r3, r1
-        ji s1
+        ji s2
         ji soma 
         xor r0, r0
-        addi 7
-        addi 3
+        addui 10
         sub r1, r0
         ld r0, r1
         add r3, r0
         ji s2
         ji d1
         xor r0, r0
-        addi 7
-        addi 3
+        addui 10
         sub r1, r0
         st r3, r1
         ji s3
         ji d2
         xor r0, r0
-        addi 7
-        addi 7
+        addui 14
         addi 5
         add r1, r0
         xor r0, r0
         ji s4
         ji d3
         xor r3, r3
-        addi 7
-        addi 7
+        addi 14
         addi 4
         ld r3, r1
         sub r0, r3 
-    ji d4
+    ji d4 //
 ecall
