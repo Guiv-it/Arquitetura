@@ -3,7 +3,7 @@ xor r1, r1
 xor r2, r2
 xor r3, r3
 addupi 3
-addui 13
+addui 14
 add r1,r0
 xor r0, r0
 addui 10
@@ -59,3 +59,4 @@ add r2, r0 ; r2 = 47
  addi 1
  sub r1 r0
  bgzr r3, r2
+ ji 0
